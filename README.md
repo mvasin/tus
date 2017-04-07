@@ -14,7 +14,7 @@ services:
       - "<put-your-port-here>:9292"
 ```
 
-Now you can [direct](https://github.com/janko-m/shrine-tus-demo/blob/master/assets/js/app.js#L13) your [tus-js-client](https://github.com/tus/tus-js-client) to your host machine on <put-your-port-here> port.
+Now you can [direct](https://github.com/janko-m/shrine-tus-demo/blob/master/assets/js/app.js#L13) your [tus-js-client](https://github.com/tus/tus-js-client) to your host machine on `/tus:<put-your-port-here>`.
 
 ## Docker image
 Docker hub url: https://hub.docker.com/r/vasin/tus/
