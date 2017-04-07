@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (2.9.5)
+      aws-sdk-resources (= 2.9.5)
+    aws-sdk-core (2.9.5)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.9.5)
+      aws-sdk-core (= 2.9.5)
+    aws-sigv4 (1.0.0)
+    dotenv (2.2.0)
+    jmespath (1.3.1)
+    puma (3.8.2)
+    rack (2.0.1)
+    roda (2.24.0)
+      rack
+    tus-server (0.10.0)
+      roda (~> 2.19)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk (~> 2.1)
+  dotenv
+  puma
+  tus-server (~> 0.10.0)
+
+BUNDLED WITH
+   1.14.6
